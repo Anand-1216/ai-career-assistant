@@ -12,5 +12,4 @@ app.get("/health", (req, res) => {
 // routes
 const uploadRoutes = require("./routes/uploadRoutes");
 app.use("/api", uploadRoutes);
-
 module.exports = app;
